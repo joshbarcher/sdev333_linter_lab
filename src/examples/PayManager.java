@@ -3,10 +3,20 @@ package examples;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * This class takes an employee and calculates their pay.
+ *
+ * @author Josh Archer
+ * @version 1.0
+ */
 public class PayManager
 {
     private static String name;
 
+    /**
+     * The entry point to my program.
+     * @param args the command line args (not used)
+     */
     public static void main(String[] args)
     {
         //run a second test
